@@ -17,7 +17,7 @@ res1 = dict(sorted(res.items(), key=lambda item: item[1]))
 numberOfEmployee = int(input("Enter the number of emplyee :"))
 #print('...............................................................')
 if (lenOfGoodies >= numberOfEmployee):
-    arr = res1.values()
+    arr = res.values()
     #print(arr)
     list_arr = list(arr)
     #print('List of arr', list_arr)
